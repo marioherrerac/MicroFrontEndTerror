@@ -1,5 +1,5 @@
 function getAll() {
-    fetch('/templates/list.html')
+    fetch('/template/list.html')
         .then((response) => response.text())
         .then((template) => {
             var rendered = Mustache.render(template, data);
@@ -12,7 +12,7 @@ function checkId(item) {
 }
 
 function getById(query) {
-    fetch('/templates/detail.html')
+    fetch('/template/detail.html')
         .then((response) => response.text())
         .then((template) => {
             var params = new URLSearchParams(query);
