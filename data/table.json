@@ -1,26 +1,14 @@
 data = [{
         "_id": "1",
-        "director_name": "Wes craven",
-        "nationality": "American",
-        "birth_year": 1939,
-        "fields": "Director, writer",
+        "producer_name": "New Line Cinema",
+        "country": "United States",
+        "founded": 1967,
+        "genere": "Adventures, Terror, Action",
         "movies": [{
                 "movie_id": 1,
                 "title": "A Nightmare on Elm Street"
             },
             {
-                "movie_id": 2,
-                "title": "Scream"
-            }
-        ]
-    },
-    {
-        "_id": "2",
-        "director_name": "David F. Sandberg",
-        "nationality": "American",
-        "birth_year": 1981,
-        "fields": "Director, youtuber",
-        "movies": [{
                 "movie_id": 3,
                 "title": "Lights Out"
             },
@@ -29,5 +17,16 @@ data = [{
                 "title": "Annabelle: Creation"
             }
         ]
+    },
+    {
+        "_id": "1",
+        "producer_name": "Woods Entertainment",
+        "country": "Canada",
+        "founded": 1970,
+        "genere": "Detective, Terror, Thriller",
+        "movies": [{
+            "movie_id": 2,
+            "title": "Scream"
+        }]
     }
 ]
