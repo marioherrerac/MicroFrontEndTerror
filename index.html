@@ -1,58 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
-    <!-- Basic Page Needs
+  <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta charset="utf-8">
-    <title>Terror Movies Site</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Mobile Specific Metas
+  <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
 
-    <!-- FONT
+  <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link rel="icon" type="image/png" href="/images/favicon.png">
 
-    <!-- CSS
+  <!-- JSON
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/skeleton.css">
+  <script type="text/javascript" src="/data/table.json"></script>
 
-    <!-- Favicon
+  <!-- Javascript
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <link rel="icon" type="image/png" href="images/favicon.png">
+	  
+  <script type="text/javascript" src="/js/mustache.min.js"></script>
+  <script type="text/javascript" src="/js/navigo.min.js"></script>
+  <script type="text/javascript" src="/js/app.js" defer></script>
 
 </head>
+<body onload="init();">
 
-<body>
-
-    <!-- Primary Page Layout
+  <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-    <div class="container">
-        <div class="row" style="margin-top: 15px">
-            <button onclick="document.getElementById('iframe').src='home.html';" class="three columns button-primary">Home</button>
-            <button onclick="document.getElementById('iframe').src='https://books-minisite.netlify.app';" class="three columns button-primary">Movies</button>
-            <button onclick="document.getElementById('iframe').src='https://authors-minisite.netlify.app';" class="three columns button-primary">Directors</button>
-            <button onclick="document.getElementById('iframe').src='https://publishers-minisite.netlify.app';" class="three columns button-primary">Producers</button>
-        </div>
-        <div class="row" style="height: 500px">
-            <div class="twelve columns" style="height: 100%">
-                <iframe id="iframe" style="border:0px solid black;" src="home.html" width="100%" height="100%"></iframe>
-            </div>
-        </div>
-        <div class="row" style="margin-top: 15px">
-            <button disabled="disabled" class="twelve columns button-primary">
-		    Copyright (c) 2022 Mario Herrera Carmona</button>
-        </div>
-    </div>
+  <div class="container">
+	  <div id="content">
+	  </div>
+  </div>
 
-    <!-- End Document
+<!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
-
 </html>
