@@ -178,12 +178,12 @@
 
 
 /* Base Styles
-         –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 
 /* NOTE
-         html is set to 62.5% so that all the REM measurements throughout Skeleton
-         are based on 10px sizing. So basically 1.5rem = 15px :) */
+  html is set to 62.5% so that all the REM measurements throughout Skeleton
+  are based on 10px sizing. So basically 1.5rem = 15px :) */
 
 html {
     font-size: 62.5%;
@@ -200,7 +200,7 @@ body {
 
 
 /* Typography
-         –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 h1,
 h2,
@@ -279,7 +279,7 @@ p {
 
 
 /* Links
-         –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 a {
     color: #1EAEDB;
@@ -291,7 +291,7 @@ a:hover {
 
 
 /* Buttons
-         –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .button,
 button,
@@ -359,7 +359,7 @@ input[type="button"].button-primary:focus {
 
 
 /* Forms
-         –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 input[type="email"],
 input[type="number"],
@@ -440,7 +440,7 @@ label>.label-body {
 
 
 /* Lists
-         –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 ul {
     list-style: circle inside;
@@ -470,7 +470,7 @@ li {
 
 
 /* Code
-         –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 code {
     padding: .2rem .5rem;
@@ -490,7 +490,7 @@ pre>code {
 
 
 /* Tables
-         –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 th,
 td {
@@ -511,7 +511,7 @@ td:last-child {
 
 
 /* Spacing
-         –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 button,
 .button {
@@ -539,7 +539,7 @@ form {
 
 
 /* Utilities
-         –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .u-full-width {
     width: 100%;
@@ -561,7 +561,7 @@ form {
 
 
 /* Misc
-         –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 hr {
     margin-top: 3rem;
@@ -572,7 +572,7 @@ hr {
 
 
 /* Clearing
-         –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 
 /* Self Clearing Goodness */
@@ -587,15 +587,15 @@ hr {
 
 
 /* Media Queries
-         –––––––––––––––––––––––––––––––––––––––––––––––––– */
+  –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 
 /*
-         Note: The best way to structure the use of media queries is to create the queries
-         near the relevant code. For example, if you wanted to change the styles for buttons
-         on small devices, paste the mobile query code up in the buttons section and style it
-         there.
-         */
+  Note: The best way to structure the use of media queries is to create the queries
+  near the relevant code. For example, if you wanted to change the styles for buttons
+  on small devices, paste the mobile query code up in the buttons section and style it
+  there.
+  */
 
 
 /* Larger than mobile */
